@@ -13,5 +13,10 @@ namespace AwesomePetGame
         {
 
         }
+
+        protected void Button1_Click(object sender, EventArgs e)
+        {
+            lblOne.Text = lblOne.Text == "Hi" ? "Hello" : "Hi";
+        }
     }
 }
